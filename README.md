@@ -12,7 +12,7 @@
 - Experimented with toy models in Python and derived Roeser-Huber formula using data fitting methods
 - Presented findings to CityU Physics Conference
 
-## Projects and Research
+## Data Science Projects and Research
 ### Galaxy Classification with Machine Learning and CNNs
 [Repository](https://github.com/WilliamKwanProgramming/galaxy-classification-project)
 
@@ -29,6 +29,11 @@ STA496 Research Course under supervision of Prof. Antonio Martin at UofT Astrost
 ### TalkLikeMe: LLM Chat bot learned from your own texts
 [Repository](https://github.com/WilliamKwanProgramming/ai-messaging-bot)
 
+## Cybersecurity Projects
+
 ### Network Intrustion Detection
 [Repository](https://github.com/WilliamKwanProgramming/network-intrustion-detection)
+
+### Access Control Policy with AI
+[Repository](https://github.com/WilliamKwanProgramming/access-control-policy-detection)
 
