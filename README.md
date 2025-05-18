@@ -14,6 +14,18 @@
 
 ## Projects and Research
 ### Galaxy Classification with Machine Learning and CNNs
-
+[Repository](https://github.com/WilliamKwanProgramming/galaxy-classification-project)
 
 STA496 Research Course under supervision of Prof. Antonio Martin at UofT Astrostatistics. Built regression models using astronomical feature extraction from more than 61000 galaxy images. This project implemented **Python**, and many of its data science libraries. Compared traditional machine learning methods to CNNs, and extracted embeddings using dimensionality reduction techniques. Finetuned ConvNext arch models for specfic classification tasks (ring galaxies, irregular galaxies, etc), and attained accuracy comparable to those of larger models. 
+
+### Spam Comments Detection with Machine Learning
+[Repository](https://github.com/WilliamKwanProgramming/sta314_finalproject)
+
+
+### Waste Classifier using Computer Vision
+[Repository](https://github.com/WilliamKwanProgramming/computer-vision-waste-classification)
+
+
+### TalkLikeMe: LLM Chat bot learned from your own texts
+[Repository](https://github.com/WilliamKwanProgramming/ai-messaging-bot)
+
