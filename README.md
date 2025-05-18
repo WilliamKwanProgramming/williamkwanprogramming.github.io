@@ -4,7 +4,7 @@
 
 ## Education
 - M.S., Statistics | University of Toronto (In Progress)
-- B.S., Statistics | University of Toronto (_June 2025_)
+- B.S., Computer Science, Statistics | University of Toronto (_June 2025_)
 
 ## Work Experience
 **Research Intern @ City University of Hong Kong (_June 2023 - August 2023_)**
@@ -28,4 +28,7 @@ STA496 Research Course under supervision of Prof. Antonio Martin at UofT Astrost
 
 ### TalkLikeMe: LLM Chat bot learned from your own texts
 [Repository](https://github.com/WilliamKwanProgramming/ai-messaging-bot)
+
+### Network Intrustion Detection
+[Repository](https://github.com/WilliamKwanProgramming/network-intrustion-detection)
 
