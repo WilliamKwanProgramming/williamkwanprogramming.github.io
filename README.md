@@ -1,10 +1,14 @@
 # Data Scientist/Statistician
 
-#### Technical Skills: Python, R, MATLAB, Adobe Suite (AutoCAD, Acrobat), Microsoft Office
+#### Technical Skills: Python, R, MATLAB, Adobe Suite (AutoCAD, Acrobat), Microsoft Office, LaTeX, Linux
 
 ## Education
 - M.S., Statistics | University of Toronto (In Progress)
 - B.S., Computer Science, Statistics | University of Toronto (_June 2025_)
+
+## Certifications
+Certified Penetration Testing Specialist | HacktheBox (Obtained Apr 2025)
+Cybersecurity Certificate, IT Support Professional Certificate | Google (Obtained March 2025)
 
 ## Work Experience
 **Research Intern @ City University of Hong Kong (_June 2023 - August 2023_)**
