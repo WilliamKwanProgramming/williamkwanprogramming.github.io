@@ -22,6 +22,11 @@
 
 STA496 Research Course under supervision of Prof. Antonio Martin at UofT Astrostatistics. Built regression models using astronomical feature extraction from more than 61000 galaxy images. This project implemented **Python**, and many of its data science libraries. Compared traditional machine learning methods to CNNs, and extracted embeddings using dimensionality reduction techniques. Finetuned ConvNext arch models for specfic classification tasks (ring galaxies, irregular galaxies, etc), and attained accuracy comparable to those of larger models. 
 
+### Students Performance Predictor
+[Repository](https://github.com/WilliamKwanProgramming/student-grade-predictor/)
+
+Final project for DAT course at UofT. A Python-powered web app that predicts students’ math exam scores from demographic and academic factors. I built a robust preprocessing pipeline with scikit-learn’s ColumnTransformer to handle missing values and scale both numeric and categorical data, then trained and fine-tuned a regression model whose artifacts are loaded on demand in a Flask front end for instant predictions. The project includes interactive Jupyter notebooks for EDA and model diagnostics, and follows best practices for reproducibility with Conda environment management, Git version control, and clear modular code organization.
+
 ### Spam Comments Detection with Machine Learning
 [Repository](https://github.com/WilliamKwanProgramming/sta314_finalproject)
 
