@@ -1,6 +1,6 @@
-# Data Scientist/Statistician
+# Data Scientist/Statistician/IT
 
-#### Technical Skills: Python, R, MATLAB, Adobe Suite (AutoCAD, Acrobat), Microsoft Office, LaTeX, Linux
+#### Technical Skills: Python, R, MATLAB, Adobe Suite (AutoCAD, Acrobat), Microsoft Office, LaTeX, Linux, Networking
 
 ## Education
 - M.S., Statistics | University of Toronto (In Progress)
