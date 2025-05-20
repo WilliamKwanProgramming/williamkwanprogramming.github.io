@@ -30,6 +30,11 @@ Final project for DAT course at UofT. A Python-powered web app that predicts stu
 ### Spam Comments Detection with Machine Learning
 [Repository](https://github.com/WilliamKwanProgramming/sta314_finalproject)
 
+### Exploratory Data Analysis of Global Development Trends with Gapminder
+[Repository](https://github.com/WilliamKwanProgramming/gapminder-analysis)
+
+In this end-to-end EDA project, I leveraged R and the Gapminder dataset (1952–2007) to explore global patterns in life expectancy, GDP per capita, and population growth. I began by importing and cleaning the data via the gapminder package and dplyr, then produced a suite of 12 visualizations—time series, boxplots, density plots, heatmaps, and bubble charts—with ggplot2 to highlight temporal trends and continental differences. To quantify the relationship between wealth and health, I fitted and validated a linear regression of life expectancy on log(GDP per capita). I wrapped the entire workflow in reproducible shell scripts, a Makefile, and Docker for consistent, containerized execution, and compiled my code, results, and narrative into a polished RMarkdown HTML report, showcasing my skills in data wrangling, visualization, statistical modeling, automation, and reproducible reporting.
+
 
 ### Waste Classifier using Computer Vision
 [Repository](https://github.com/WilliamKwanProgramming/computer-vision-waste-classification)
