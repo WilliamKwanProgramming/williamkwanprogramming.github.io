@@ -19,7 +19,6 @@
 ## Data Science Projects and Research
 ### Galaxy Classification with Machine Learning and CNNs
 [Repository](https://github.com/WilliamKwanProgramming/galaxy-classification-project)
-
 STA496 Research Course under supervision of Prof. Antonio Martin at UofT Astrostatistics. Built regression models using astronomical feature extraction from more than 61000 galaxy images. This project implemented **Python**, and many of its data science libraries. Compared traditional machine learning methods to CNNs, and extracted embeddings using dimensionality reduction techniques. Finetuned ConvNext arch models for specfic classification tasks (ring galaxies, irregular galaxies, etc), and attained accuracy comparable to those of larger models. 
 
 ### RNN-Powered Quant Finance Document Classifier
@@ -28,7 +27,6 @@ Bidirectional LSTM built with TensorFlow that ingests raw HTML filings and assig
 
 ### Students Performance Predictor
 [Repository](https://github.com/WilliamKwanProgramming/student-grade-predictor/)
-
 Final project for DAT course at UofT. A Python-powered web app that predicts students’ math exam scores from demographic and academic factors. I built a robust preprocessing pipeline with scikit-learn’s ColumnTransformer to handle missing values and scale both numeric and categorical data, then trained and fine-tuned a regression model whose artifacts are loaded on demand in a Flask front end for instant predictions. The project includes interactive Jupyter notebooks for EDA and model diagnostics, and follows best practices for reproducibility with Conda environment management, Git version control, and clear modular code organization.
 
 ### Derivative Pricing using Algorithms
@@ -44,7 +42,6 @@ For my “Stock Market Analysis and Prediction” project, I tapped into The Inv
 
 ### Exploratory Data Analysis of Global Development Trends with Gapminder
 [Repository](https://github.com/WilliamKwanProgramming/gapminder-analysis)
-
 In this end-to-end EDA project, I leveraged R and the Gapminder dataset (1952–2007) to explore global patterns in life expectancy, GDP per capita, and population growth. I began by importing and cleaning the data via the gapminder package and dplyr, then produced a suite of 12 visualizations—time series, boxplots, density plots, heatmaps, and bubble charts—with ggplot2 to highlight temporal trends and continental differences. To quantify the relationship between wealth and health, I fitted and validated a linear regression of life expectancy on log(GDP per capita). I wrapped the entire workflow in reproducible shell scripts, a Makefile, and Docker for consistent, containerized execution, and compiled my code, results, and narrative into a polished RMarkdown HTML report, showcasing my skills in data wrangling, visualization, statistical modeling, automation, and reproducible reporting.
 
 
