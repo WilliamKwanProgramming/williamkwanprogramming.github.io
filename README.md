@@ -42,7 +42,7 @@ For my “Stock Market Analysis and Prediction” project, I tapped into The Inv
 
 ### Exploratory Data Analysis of Global Development Trends with Gapminder
 [Repository](https://github.com/WilliamKwanProgramming/gapminder-analysis)
-In this end-to-end EDA project, I leveraged R and the Gapminder dataset (1952–2007) to explore global patterns in life expectancy, GDP per capita, and population growth. I began by importing and cleaning the data via the gapminder package and dplyr, then produced a suite of 12 visualizations—time series, boxplots, density plots, heatmaps, and bubble charts—with ggplot2 to highlight temporal trends and continental differences. To quantify the relationship between wealth and health, I fitted and validated a linear regression of life expectancy on log(GDP per capita). I wrapped the entire workflow in reproducible shell scripts, a Makefile, and Docker for consistent, containerized execution, and compiled my code, results, and narrative into a polished RMarkdown HTML report, showcasing my skills in data wrangling, visualization, statistical modeling, automation, and reproducible reporting.
+End-to-end R pipeline that pulls the 1952-2007 Gapminder dataset and walks it through a fully automated workflow: data wrangling with dplyr, 12 ggplot-driven visuals that track life-expectancy, GDP-per-capita and population trends, a log-linear regression linking economic growth to longevity, and a polished HTML report. Everything is scripted behind a Makefile, Bash helpers, and a Docker setup so hiring managers can reproduce the entire analysis with a single command.
 
 
 ### Waste Classifier using Computer Vision
