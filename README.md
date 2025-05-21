@@ -22,10 +22,22 @@
 
 STA496 Research Course under supervision of Prof. Antonio Martin at UofT Astrostatistics. Built regression models using astronomical feature extraction from more than 61000 galaxy images. This project implemented **Python**, and many of its data science libraries. Compared traditional machine learning methods to CNNs, and extracted embeddings using dimensionality reduction techniques. Finetuned ConvNext arch models for specfic classification tasks (ring galaxies, irregular galaxies, etc), and attained accuracy comparable to those of larger models. 
 
+### RNN-Powered Quant Finance Document Classifier
+[Repository](https://github.com/WilliamKwanProgramming/RNN-quant-document-classifer)
+Bidirectional LSTM built with TensorFlow that ingests raw HTML filings and assigns them to Balance-Sheet, Cash-Flow, Income-Statement, Notes, or Other with 96 % test accuracy. A SMOTETomek pipeline fixes class imbalance; a Word2Vec embedding layer captures domain-specific vocabulary. Deployed as a Hugging Face Space via Streamlit so users can drop in a document and instantly get the label plus confidence score. Deployed as a streamlit app for ease of use. 
+
 ### Students Performance Predictor
 [Repository](https://github.com/WilliamKwanProgramming/student-grade-predictor/)
 
 Final project for DAT course at UofT. A Python-powered web app that predicts students’ math exam scores from demographic and academic factors. I built a robust preprocessing pipeline with scikit-learn’s ColumnTransformer to handle missing values and scale both numeric and categorical data, then trained and fine-tuned a regression model whose artifacts are loaded on demand in a Flask front end for instant predictions. The project includes interactive Jupyter notebooks for EDA and model diagnostics, and follows best practices for reproducibility with Conda environment management, Git version control, and clear modular code organization.
+
+### Derivative Pricing using Algorithms
+[Repository](https://github.com/WilliamKwanProgramming/options-pricing-algorithm)
+A self-contained library (plus Streamlit front-end) that prices European calls/puts, backs out implied volatility, and outputs the full Greek risk profile. Written from scratch in NumPy / SciPy, unit-tested for edge cases, and benchmarked against Bloomberg values to ±0.5 %. The app lets hiring managers plug in ticker-level inputs and see valuations, vol surfaces, and P/L heatmaps in seconds. 
+
+### Stock Market Analysis and Prediction
+[Repository](https://github.com/WilliamKwanProgramming/stock-data-analysis-prediction)
+For my “Stock Market Analysis and Prediction” project, I tapped into The Investors Exchange (IEX) API to fetch live market data and performed comprehensive exploratory data analysis and visualization in Python. I developed techniques to assess a stock’s historical risk profile and then applied a Monte Carlo simulation to forecast its future price movements. Through this workflow, I combined real-time data processing, statistical modeling, and intuitive visualizations to uncover trends and quantify potential outcomes.
 
 ### Spam Comments Detection with Machine Learning
 [Repository](https://github.com/WilliamKwanProgramming/sta314_finalproject)
