@@ -1,6 +1,6 @@
 # Data Scientist/Statistician/IT
 
-#### Technical Skills: Python, R, MATLAB, Adobe Suite (AutoCAD, Acrobat), Microsoft Office, LaTeX, Linux, Networking
+#### Technical Skills: Python, R, SQL, Excel, MATLAB, Adobe Suite (AutoCAD, Acrobat), Microsoft Office, LaTeX, Linux, Networking
 
 ## Education
 - M.S., Statistics | University of Toronto (_June 2027_)
@@ -24,6 +24,10 @@ STA496 Research Course under supervision of Prof. Antonio Martin at UofT Astrost
 ### RNN-Powered Quant Finance Document Classifier
 [Repository](https://github.com/WilliamKwanProgramming/RNN-quant-document-classifer)
 Bidirectional LSTM built with TensorFlow that ingests raw HTML filings and assigns them to Balance-Sheet, Cash-Flow, Income-Statement, Notes, or Other with 96 % test accuracy. A SMOTETomek pipeline fixes class imbalance; a Word2Vec embedding layer captures domain-specific vocabulary. Deployed as a Hugging Face Space via Streamlit so users can drop in a document and instantly get the label plus confidence score. Deployed as a streamlit app for ease of use. 
+
+### AdventureWorks Sales Intelligence Dashboard
+[Repository](https://github.com/WilliamKwanProgramming/adventure-works-sql-powerbi)
+I extracted and cleaned the AdventureWorksDW2019 dataset using T-SQL in Microsoft SQL Server Management Studio, then exported the sanitized tables as CSVs. I enriched and modelled the data in Excel and Power Query before linking all tables into Power BI. Finally, I designed and published a three-page interactive dashboard highlighting overall sales trends, customer segmentation, and product performance, and also generated a static PDF report. Skills demonstrated: SQL, Excel, Power Query, data modelling, and Power BI visualization.
 
 ### Students Performance Predictor
 [Repository](https://github.com/WilliamKwanProgramming/student-grade-predictor/)
