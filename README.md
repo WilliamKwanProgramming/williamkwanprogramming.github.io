@@ -10,7 +10,15 @@
 - Certified Penetration Testing Specialist | HacktheBox (Obtained Apr 2025)
 - Cybersecurity Certificate, IT Support Professional Certificate | Google (Obtained March 2025)
 
-## Work Experience
+## Work / Research Experience
+**Research Assistant @ University of Toronto (_June 2024 - August 2024_)**
+- Built a 320M record database tracking references to Google Books and OCLC using Python, SQL, 
+BigQuery
+- Engineered a parallel NLP pipeline using spaCy, NLTK, Regex that tagged 11M tech-year 
+mentions with 92% precision and cut batch processing time by 25% through vectorization 
+- Automated metadata scraping with BeautifulSoup, raising overall dataset completeness by 30%
+- Analytical dashboard using PowerBI and Tableau
+
 **Research Intern @ City University of Hong Kong (_June 2023 - August 2023_)**
 - Conducted literature review on band-structure and superconductive properties of twisted tri-layer graphene
 - Experimented with toy models in Python and derived Roeser-Huber formula using data fitting methods
