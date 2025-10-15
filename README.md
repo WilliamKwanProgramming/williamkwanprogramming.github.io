@@ -6,11 +6,9 @@
 - M.S., Statistics | University of Toronto (_June 2027_)
 - B.S., Computer Science, Statistics | University of Toronto (_June 2025_)
 
-## Certifications
-- Certified Penetration Testing Specialist | HacktheBox (Obtained Apr 2025)
-- Cybersecurity Certificate, IT Support Professional Certificate | Google (Obtained March 2025)
-
 ## Work / Research Experience
+**ESOC Analyst Intern @ CIBC (_Sept 2025 - Dec 2025_)**
+
 **Research Assistant @ University of Toronto (_June 2024 - August 2024_)**
 - Built a 320M record database tracking references to Google Books and OCLC using Python, SQL, 
 BigQuery
