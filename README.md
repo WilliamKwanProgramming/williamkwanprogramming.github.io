@@ -35,6 +35,10 @@ mentions with 92% precision and cut batch processing time by 25% through vectori
 [Repository](https://github.com/WilliamKwanProgramming/galaxy-classification-project)
 STA496 Research Course under supervision of Prof. Antonio Martin at UofT Astrostatistics. Built regression models using astronomical feature extraction from more than 61000 galaxy images. This project implemented **Python**, and many of its data science libraries. Compared traditional machine learning methods to CNNs, and extracted embeddings using dimensionality reduction techniques. Finetuned ConvNext arch models for specfic classification tasks (ring galaxies, irregular galaxies, etc), and attained accuracy comparable to those of larger models. 
 
+### Global Economic Forecasting Platform
+[Repository](https://github.com/WilliamKwanProgramming/macro-growth-forecast)
+Global GDP Forecasting MLOps Pipeline is an end-to-end system that uses TensorFlow LSTMs and IMF World Economic Outlook data to forecast country-level GDP growth for 196 countries from 1980–2029. The project combines a Dockerized Airflow pipeline, DVC, and MLflow for automated data ingestion, training, experiment tracking, and versioning, with deployment via FastAPI and a Streamlit UI for interactive exploration of forecasts and model performance.
+
 ### GAN-Accelerated-Kinetic Monte Carlo
 [Repository](https://github.com/WilliamKwanProgramming/GAN-Accelerated-Kinetic-Monte-Carlo)
 Built a conditional GAN surrogate using Python for stochastic surface dynamics delivering 40x faster simulation than KMC while matching statistical targets; reproduced the codebase using data loaders, ResNet G/D, physics constraints, rollouts, logging to reproduce study results
