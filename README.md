@@ -1,12 +1,14 @@
 # Data Scientist/Statistician
 
-#### Technical Skills: Python, R, SQL, Excel, MATLAB, Adobe Suite (AutoCAD, Acrobat), Microsoft Office, LaTeX, Linux, Networking
+#### Technical Skills: Python, R, SQL, Power BI, Excel, MATLAB, Adobe Suite (AutoCAD, Acrobat), Microsoft Office, LaTeX, Linux, Networking
 
 ## Education
 - M.S., Statistics | University of Toronto (_June 2027_)
 - B.S., Mathematics and Statistics | University of Toronto (_June 2025_)
 
 ## Work / Research Experience
+**Business Analyst Intern @ Munich Re (_Jan 2026 - Apr 2026_)**
+
 **ESOC Analyst Intern @ CIBC (_Sept 2025 - Dec 2025_)**
 
 **Research Project @ University of Toronto (_June 2025 - August 2025_)**
