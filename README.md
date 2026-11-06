@@ -32,10 +32,29 @@ mentions with 92% precision and cut batch processing time by 25% through vectori
 - Ensured reliability and contributions readiness with a Pytest test suite; aligned the example implementation with an ICLR 2023 paper reference to support physics-driven ML research 
 
 
+## Quantitative Finance and Insurance-Linked Securities Projects
+
+### Limit Order Book Simulator and Market-Making Backtester
+[Repository](https://github.com/WilliamKwanProgramming/limit-order-book-market-maker)
+A C++17 limit order book with Python bindings (pybind11) that handles more than 10 million simulated messages per second with 300 resting orders and 2.6 million per second with a million, a replayer for LOBSTER-format message files that checks the book against the recorded state after every message (0 mismatches on 3 million synthetic rows; not yet run on real LOBSTER data), and a market-making backtester. Over 2,000 paired simulated episodes, Avellaneda-Stoikov quoting reduces the standard deviation of P&L by 78% and of inventory by 61% compared with symmetric quoting, at USD 14.9 lower mean P&L per episode; a follow-up decomposition shows that the inventory skew alone gives the same reduction in P&L standard deviation. Under Hawkes bursts of informed order flow every strategy loses money, and Avellaneda-Stoikov loses USD 126 more per episode than symmetric quoting. Simulated data only; tests and continuous integration included.
+
+### Cat Bond Issuance Model
+[Repository](https://github.com/WilliamKwanProgramming/cat-bond-issuance-model)
+Simulates 100,000 years of Florida hurricane losses (calibrated to HURDAT2) on a hypothetical USD 100 bn portfolio and structures three USD 500 million layers with expected losses of 3.90%, 1.98% and 1.09%, with uncertainty bands from 200 refits of the hazard model. A regression of log spread on log expected loss for 56 public cat bond layers with US named-storm exposure, specified before it was run, gives a slope of 0.466 with year effects (wild cluster bootstrap 95% interval 0.115 to 0.830); the pre-specified test of proportional pricing (slope 1) rejects only when eight flagged rows are included. Also includes an Excel layer pricer with live formulas, a 12-page pitchbook and a test suite (39 of 39 deliberately injected bugs caught).
+
+### Market Risk Engine: VaR, Expected Shortfall and Backtesting
+[Repository](https://github.com/WilliamKwanProgramming/market-risk-engine)
+A Python library that forecasts one-day 99% value-at-risk and 97.5% expected shortfall with seven methods (historical simulation, EWMA, filtered historical simulation with a GARCH-t model, Monte Carlo), revalues option positions in full, and backtests the forecasts with coverage, independence, expected shortfall and scoring tests; a Streamlit dashboard shows the results. It was validated first on simulated data with known truth, then backtested under a protocol fixed beforehand on 7,300 days of prices of 20 US stocks and the S&P 500 index: Holm-adjusted Kupiec tests reject every method except filtered historical simulation, and EWMA with a normal distribution breached the 99% VaR on 2.14% of days. 151 tests, and a mutation check that catches 38 of 38 deliberately injected bugs.
+
+### Landfall: Hurricane Event-Driven Trading Strategy
+[Repository](https://github.com/WilliamKwanProgramming/landfall-hurricane-trading-strategy)
+Tests whether the prices of hurricane-exposed US stocks react to National Hurricane Center information around landfalls. A Python and C++ pipeline detects landfalls in HURDAT2 data, forecasts tracks with a model refit each season on earlier seasons only (72-hour error 734 km against 957 km for persistence) and computes wind footprints (the C++ kernel runs 2.4 times faster than NumPy). A pre-specified event study of 8 stocks around 39 landfalls finds nothing: no abnormal return survives Holm adjustment, and the per-stock tests would detect a true 2% abnormal return 68 to 92% of the time for seven stocks and 18% for the eighth. A forecast-trigger trading rule loses 0.35% per event after assumed costs (cross-validated 95% interval -0.63% to -0.10%) and 0.15% before them, which cannot be told from zero. Published as a negative result; 40 of 40 deliberately injected bugs are caught by the tests.
+
 ## Data Science Projects and Research
+
 ### Galaxy Classification with Machine Learning and CNNs
 [Repository](https://github.com/WilliamKwanProgramming/galaxy-classification-project)
-STA496 Research Course under supervision of Prof. Antonio Martin at UofT Astrostatistics. Built regression models using astronomical feature extraction from more than 61000 galaxy images. This project implemented **Python**, and many of its data science libraries. Compared traditional machine learning methods to CNNs, and extracted embeddings using dimensionality reduction techniques. Finetuned ConvNext arch models for specfic classification tasks (ring galaxies, irregular galaxies, etc), and attained accuracy comparable to those of larger models. 
+STA496 Research Course under supervision of Prof. Antonio Martin at UofT Astrostatistics. Built regression models using astronomical feature extraction from more than 61000 galaxy images. This project implemented **Python**, and many of its data science libraries. Compared traditional machine learning methods to CNNs, and extracted embeddings using dimensionality reduction techniques. Finetuned ConvNext arch models for specfic classification tasks (ring galaxies, irregular galaxies, etc), and attained accuracy comparable to those of larger models.
 
 ### Global Economic Forecasting Platform
 [Repository](https://github.com/WilliamKwanProgramming/macro-growth-forecast)
@@ -45,9 +64,17 @@ Global GDP Forecasting MLOps Pipeline is an end-to-end system that uses TensorFl
 [Repository](https://github.com/WilliamKwanProgramming/GAN-Accelerated-Kinetic-Monte-Carlo)
 Built a conditional GAN surrogate using Python for stochastic surface dynamics delivering 40x faster simulation than KMC while matching statistical targets; reproduced the codebase using data loaders, ResNet G/D, physics constraints, rollouts, logging to reproduce study results
 
+### Derivative Pricing using Algorithms
+[Repository](https://github.com/WilliamKwanProgramming/options-pricing-algorithm)
+A self-contained library (plus Streamlit front-end) that prices European calls/puts, backs out implied volatility, and outputs the full Greek risk profile. Written from scratch in NumPy / SciPy, unit-tested for edge cases, and benchmarked against Bloomberg values to ±0.5 %. The app lets hiring managers plug in ticker-level inputs and see valuations, vol surfaces, and P/L heatmaps in seconds.
+
 ### RNN-Powered Quant Finance Document Classifier
 [Repository](https://github.com/WilliamKwanProgramming/RNN-quant-document-classifer)
-Bidirectional LSTM built with TensorFlow that ingests raw HTML filings and assigns them to Balance-Sheet, Cash-Flow, Income-Statement, Notes, or Other with 96 % test accuracy. A SMOTETomek pipeline fixes class imbalance; a Word2Vec embedding layer captures domain-specific vocabulary. Deployed as a Hugging Face Space via Streamlit so users can drop in a document and instantly get the label plus confidence score. Deployed as a streamlit app for ease of use. 
+Bidirectional LSTM built with TensorFlow that ingests raw HTML filings and assigns them to Balance-Sheet, Cash-Flow, Income-Statement, Notes, or Other with 96 % test accuracy. A SMOTETomek pipeline fixes class imbalance; a Word2Vec embedding layer captures domain-specific vocabulary. Deployed as a Hugging Face Space via Streamlit so users can drop in a document and instantly get the label plus confidence score. Deployed as a streamlit app for ease of use.
+
+### Stock Market Analysis and Prediction
+[Repository](https://github.com/WilliamKwanProgramming/stock-data-analysis-prediction)
+For my “Stock Market Analysis and Prediction” project, I tapped into The Investors Exchange (IEX) API to fetch live market data and performed comprehensive exploratory data analysis and visualization in Python. I developed techniques to assess a stock’s historical risk profile and then applied a Monte Carlo simulation to forecast its future price movements. Through this workflow, I combined real-time data processing, statistical modeling, and intuitive visualizations to uncover trends and quantify potential outcomes.
 
 ### AdventureWorks Sales Intelligence Dashboard
 [Repository](https://github.com/WilliamKwanProgramming/adventure-works-sql-powerbi)
@@ -57,25 +84,15 @@ I extracted and cleaned the AdventureWorksDW2019 dataset using T-SQL in Microsof
 [Repository](https://github.com/WilliamKwanProgramming/student-grade-predictor/)
 Final project for DAT course at UofT. A Python-powered web app that predicts students’ math exam scores from demographic and academic factors. I built a robust preprocessing pipeline with scikit-learn’s ColumnTransformer to handle missing values and scale both numeric and categorical data, then trained and fine-tuned a regression model whose artifacts are loaded on demand in a Flask front end for instant predictions. The project includes interactive Jupyter notebooks for EDA and model diagnostics, and follows best practices for reproducibility with Conda environment management, Git version control, and clear modular code organization.
 
-### Derivative Pricing using Algorithms
-[Repository](https://github.com/WilliamKwanProgramming/options-pricing-algorithm)
-A self-contained library (plus Streamlit front-end) that prices European calls/puts, backs out implied volatility, and outputs the full Greek risk profile. Written from scratch in NumPy / SciPy, unit-tested for edge cases, and benchmarked against Bloomberg values to ±0.5 %. The app lets hiring managers plug in ticker-level inputs and see valuations, vol surfaces, and P/L heatmaps in seconds. 
-
-### Stock Market Analysis and Prediction
-[Repository](https://github.com/WilliamKwanProgramming/stock-data-analysis-prediction)
-For my “Stock Market Analysis and Prediction” project, I tapped into The Investors Exchange (IEX) API to fetch live market data and performed comprehensive exploratory data analysis and visualization in Python. I developed techniques to assess a stock’s historical risk profile and then applied a Monte Carlo simulation to forecast its future price movements. Through this workflow, I combined real-time data processing, statistical modeling, and intuitive visualizations to uncover trends and quantify potential outcomes.
-
-### Spam Comments Detection with Machine Learning
-[Repository](https://github.com/WilliamKwanProgramming/sta314_finalproject)
-
 ### Exploratory Data Analysis of Global Development Trends with Gapminder
 [Repository](https://github.com/WilliamKwanProgramming/gapminder-analysis)
 End-to-end R pipeline that pulls the 1952-2007 Gapminder dataset and walks it through a fully automated workflow: data wrangling with dplyr, 12 ggplot-driven visuals that track life-expectancy, GDP-per-capita and population trends, a log-linear regression linking economic growth to longevity, and a polished HTML report. Everything is scripted behind a Makefile, Bash helpers, and a Docker setup so hiring managers can reproduce the entire analysis with a single command.
 
+### Spam Comments Detection with Machine Learning
+[Repository](https://github.com/WilliamKwanProgramming/sta314_finalproject)
 
 ### Waste Classifier using Computer Vision
 [Repository](https://github.com/WilliamKwanProgramming/computer-vision-waste-classification)
-
 
 ### TalkLikeMe: LLM Chat bot learned from your own texts
 [Repository](https://github.com/WilliamKwanProgramming/ai-messaging-bot)
