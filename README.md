@@ -1,15 +1,37 @@
-# Data Scientist/Statistician
+# Statistician | Quantitative Finance and Insurance-Linked Securities
 
-#### Technical Skills: Python, R, SQL, Power BI, Excel, MATLAB, Adobe Suite (AutoCAD, Acrobat), Microsoft Office, LaTeX, Linux, Networking
+#### Technical Skills
+
+- **Quantitative:** Probability, Stochastic Processes, Monte Carlo, Time Series, Regression, Hypothesis Testing, Backtesting
+- **Machine Learning:** Feature Engineering, Gradient Boosting, Clustering, Anomaly Detection, PyTorch, TensorFlow
+- **Finance & Risk:** Fixed Income, Options Pricing, Portfolio Theory, Relative Value, VaR/TVaR, Stress Tests, Cat Bonds
+- **Programming & Tools:** Python (NumPy, pandas), C++, R, SQL, Snowflake, Databricks, AWS, Excel, Bloomberg
+- **Other:** Power BI, MATLAB, Adobe Suite (AutoCAD, Acrobat), Microsoft Office, LaTeX, Linux, Networking
 
 ## Education
 - M.S., Statistics | University of Toronto (_June 2027_)
 - B.S., Mathematics and Statistics | University of Toronto (_June 2025_)
 
 ## Work / Research Experience
+**Insurance-Linked Securities Analyst, Investment Management @ HOOPP (_Sept 2026 - Dec 2026_)**
+
+- Build probabilistic hurricane-season forecast models that cut error 15% vs. a climatology baseline, scored by CRPS and Brier skill score in walk-forward backtests on 30 years of storm data
+- Generate 3 trade recommendations (est. 40 bps spread pickup) from relative-value analysis of 25+ cat bonds using risk multiples, YTM, event-loss tables, AEP/OEP curves and stress scenarios
+- Cut new-issuance screening time by 70% via Python/Snowflake ETL pipelines that parse offering documents and benchmark each cat bond against portfolio exposure, spread and expected loss
+- Give PMs a same-day exposure view across 40+ cat bonds during active hurricanes by mapping live storm tracks to covered perils, regions and positions using RMS cat-model output
+- Monitor VaR/TVaR and attachment/exhaustion probabilities across a \$1B+ cat bond and ILS fund portfolio
+
+**Data Analyst Intern @ NAV CANADA (_May 2026 - Aug 2026_)**
+
+- Improved revenue and demand forecast accuracy by 32% with ARIMA, SARIMAX and regression, informing \$1B revenue planning; cut data prep 85% via Databricks, PySpark and SQL pipelines over 2.4M+ records
+
 **Business Analyst Intern @ Munich Re (_Jan 2026 - Apr 2026_)**
 
+- Cut manual Excel pulls by 90% and saved underwriters 10+ hours/week with Power Automate reporting and a Power BI app; presented loss-ratio and exposure analyses to pricing teams covering a \$100M premium book
+
 **ESOC Analyst Intern @ CIBC (_Sept 2025 - Dec 2025_)**
+
+- Reduced false positives 10% and investigation time 15% via feature engineering and backtested anomaly scoring on Microsoft Sentinel, Defender and Proofpoint alerts; lifted reporting efficiency 20% with Python ETL
 
 **Research Project @ University of Toronto (_June 2025 - August 2025_)**
 [Repository](https://github.com/WilliamKwanProgramming/RqPINN-SciML-Algorithms-for-Eigenvalue-Problems)
