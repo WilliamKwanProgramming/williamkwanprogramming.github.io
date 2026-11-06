@@ -12,48 +12,6 @@
 - M.S., Statistics | University of Toronto (_June 2027_)
 - B.S., Mathematics and Statistics | University of Toronto (_June 2025_)
 
-## Work / Research Experience
-**Insurance-Linked Securities Analyst, Investment Management @ HOOPP (_Sept 2026 - Dec 2026_)**
-
-- Build probabilistic hurricane-season forecast models that cut error 15% vs. a climatology baseline, scored by CRPS and Brier skill score in walk-forward backtests on 30 years of storm data
-- Generate 3 trade recommendations (est. 40 bps spread pickup) from relative-value analysis of 25+ cat bonds using risk multiples, YTM, event-loss tables, AEP/OEP curves and stress scenarios
-- Cut new-issuance screening time by 70% via Python/Snowflake ETL pipelines that parse offering documents and benchmark each cat bond against portfolio exposure, spread and expected loss
-- Give PMs a same-day exposure view across 40+ cat bonds during active hurricanes by mapping live storm tracks to covered perils, regions and positions using RMS cat-model output
-- Monitor VaR/TVaR and attachment/exhaustion probabilities across a \$1B+ cat bond and ILS fund portfolio
-
-**Data Analyst Intern @ NAV CANADA (_May 2026 - Aug 2026_)**
-
-- Improved revenue and demand forecast accuracy by 32% with ARIMA, SARIMAX and regression, informing \$1B revenue planning; cut data prep 85% via Databricks, PySpark and SQL pipelines over 2.4M+ records
-
-**Business Analyst Intern @ Munich Re (_Jan 2026 - Apr 2026_)**
-
-- Cut manual Excel pulls by 90% and saved underwriters 10+ hours/week with Power Automate reporting and a Power BI app; presented loss-ratio and exposure analyses to pricing teams covering a \$100M premium book
-
-**ESOC Analyst Intern @ CIBC (_Sept 2025 - Dec 2025_)**
-
-- Reduced false positives 10% and investigation time 15% via feature engineering and backtested anomaly scoring on Microsoft Sentinel, Defender and Proofpoint alerts; lifted reporting efficiency 20% with Python ETL
-
-**Research Project @ University of Toronto (_June 2025 - August 2025_)**
-[Repository](https://github.com/WilliamKwanProgramming/RqPINN-SciML-Algorithms-for-Eigenvalue-Problems)
-- Built a physics-informed neural network (PINN) pipeline to solve the time-independent Schrödinger eigenproblem, implementing 4 complementary losses (PDE residual, normalization, eigenfunction orthogonality, monotone eigenvalue ordering) with autograd-based Laplacian and CUDA acceleration
-- Engineered synthetic datasets via collocation sampling (LHC) and symmetry-aware model variants; built 8 Jupyter notebooks covering infinite/finite wells, harmonic oscillator, and multi-dimensional extension, with reusable training/evaluation utilities
-- Validated models against close-form baselines (Predicted-vs-exact eigenpairs) and prototyped a variance-of-energy loss to improve multi-eigenstate training and reduce per-state retraining
-
-**Research Assistant @ University of Toronto (_June 2024 - August 2024_)**
-- Built a 320M record database tracking references to Google Books and OCLC using Python, SQL, 
-BigQuery
-- Engineered a parallel NLP pipeline using spaCy, NLTK, Regex that tagged 11M tech-year 
-mentions with 92% precision and cut batch processing time by 25% through vectorization 
-- Automated metadata scraping with BeautifulSoup, raising overall dataset completeness by 30%
-- Analytical dashboard using PowerBI and Tableau
-
-**Research Intern @ City University of Hong Kong (_June 2023 - August 2023_)**
-- Built an end-to-end pipeline to generate PDE inverse-problem datasets (~500 train/test per run), train CNN / encoder-decoder models, and evaluate with finite-element norms (L2/H1) via Firedrake; fully scriptable CLI for reproducible experiments
-- Coupled a differentiable PDE solver with PyTorch autograd to learn material parameters; trained up to 150 epochs with best-checkpoint selection by averaged L2 rel-error to 0.14 on a heat-conductivity benchmark
-- Built an evaluation framework leveraging Firedrake’s function-space norms for rigorous model comparison
-- Ensured reliability and contributions readiness with a Pytest test suite; aligned the example implementation with an ICLR 2023 paper reference to support physics-driven ML research 
-
-
 ## Quantitative Finance and Insurance-Linked Securities Projects
 
 ### Limit Order Book Simulator and Market-Making Backtester
@@ -127,3 +85,43 @@ End-to-end R pipeline that pulls the 1952-2007 Gapminder dataset and walks it th
 ### Access Control Policy with AI
 [Repository](https://github.com/WilliamKwanProgramming/access-control-policy-detection)
 
+## Work / Research Experience
+**Insurance-Linked Securities Analyst, Investment Management @ HOOPP (_Sept 2026 - Dec 2026_)**
+
+- Build probabilistic hurricane-season forecast models that cut error 15% vs. a climatology baseline, scored by CRPS and Brier skill score in walk-forward backtests on 30 years of storm data
+- Generate 3 trade recommendations (est. 40 bps spread pickup) from relative-value analysis of 25+ cat bonds using risk multiples, YTM, event-loss tables, AEP/OEP curves and stress scenarios
+- Cut new-issuance screening time by 70% via Python/Snowflake ETL pipelines that parse offering documents and benchmark each cat bond against portfolio exposure, spread and expected loss
+- Give PMs a same-day exposure view across 40+ cat bonds during active hurricanes by mapping live storm tracks to covered perils, regions and positions using RMS cat-model output
+- Monitor VaR/TVaR and attachment/exhaustion probabilities across a \$1B+ cat bond and ILS fund portfolio
+
+**Data Analyst Intern @ NAV CANADA (_May 2026 - Aug 2026_)**
+
+- Improved revenue and demand forecast accuracy by 32% with ARIMA, SARIMAX and regression, informing \$1B revenue planning; cut data prep 85% via Databricks, PySpark and SQL pipelines over 2.4M+ records
+
+**Business Analyst Intern @ Munich Re (_Jan 2026 - Apr 2026_)**
+
+- Cut manual Excel pulls by 90% and saved underwriters 10+ hours/week with Power Automate reporting and a Power BI app; presented loss-ratio and exposure analyses to pricing teams covering a \$100M premium book
+
+**ESOC Analyst Intern @ CIBC (_Sept 2025 - Dec 2025_)**
+
+- Reduced false positives 10% and investigation time 15% via feature engineering and backtested anomaly scoring on Microsoft Sentinel, Defender and Proofpoint alerts; lifted reporting efficiency 20% with Python ETL
+
+**Research Project @ University of Toronto (_June 2025 - August 2025_)**
+[Repository](https://github.com/WilliamKwanProgramming/RqPINN-SciML-Algorithms-for-Eigenvalue-Problems)
+- Built a physics-informed neural network (PINN) pipeline to solve the time-independent Schrödinger eigenproblem, implementing 4 complementary losses (PDE residual, normalization, eigenfunction orthogonality, monotone eigenvalue ordering) with autograd-based Laplacian and CUDA acceleration
+- Engineered synthetic datasets via collocation sampling (LHC) and symmetry-aware model variants; built 8 Jupyter notebooks covering infinite/finite wells, harmonic oscillator, and multi-dimensional extension, with reusable training/evaluation utilities
+- Validated models against close-form baselines (Predicted-vs-exact eigenpairs) and prototyped a variance-of-energy loss to improve multi-eigenstate training and reduce per-state retraining
+
+**Research Assistant @ University of Toronto (_June 2024 - August 2024_)**
+- Built a 320M record database tracking references to Google Books and OCLC using Python, SQL, 
+BigQuery
+- Engineered a parallel NLP pipeline using spaCy, NLTK, Regex that tagged 11M tech-year 
+mentions with 92% precision and cut batch processing time by 25% through vectorization 
+- Automated metadata scraping with BeautifulSoup, raising overall dataset completeness by 30%
+- Analytical dashboard using PowerBI and Tableau
+
+**Research Intern @ City University of Hong Kong (_June 2023 - August 2023_)**
+- Built an end-to-end pipeline to generate PDE inverse-problem datasets (~500 train/test per run), train CNN / encoder-decoder models, and evaluate with finite-element norms (L2/H1) via Firedrake; fully scriptable CLI for reproducible experiments
+- Coupled a differentiable PDE solver with PyTorch autograd to learn material parameters; trained up to 150 epochs with best-checkpoint selection by averaged L2 rel-error to 0.14 on a heat-conductivity benchmark
+- Built an evaluation framework leveraging Firedrake’s function-space norms for rigorous model comparison
+- Ensured reliability and contributions readiness with a Pytest test suite; aligned the example implementation with an ICLR 2023 paper reference to support physics-driven ML research 
