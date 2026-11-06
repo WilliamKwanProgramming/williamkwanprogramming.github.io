@@ -1,4 +1,4 @@
-# Statistician | Quantitative Finance and Insurance-Linked Securities
+# Statistician – Quantitative Finance and Insurance-Linked Securities
 
 #### Technical Skills
 
